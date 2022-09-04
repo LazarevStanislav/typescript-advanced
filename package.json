@@ -1,0 +1,23 @@
+{
+  "name": "typescript-advanced",
+  "version": "1.0.0",
+  "description": "**stack** react, typescript, javascript, materializecss.com, css,",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LazarevStanislav/typescript-advanced.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LazarevStanislav/typescript-advanced/issues"
+  },
+  "homepage": "https://github.com/LazarevStanislav/typescript-advanced#readme",
+  "keywords": [],
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
