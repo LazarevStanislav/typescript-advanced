@@ -27,12 +27,23 @@ class Collection {
 const string = new Collection(['i', 'am', 'string']);
 string.add('!');
 string.remove('am');
-console.log(string.items);
 const number = new Collection([1, 2, 3]);
 number.add(1);
 number.remove(3);
-console.log(number.items);
-const objs = new Collection([{ a: 1 }, { b: 2 }]);
-objs.remove({ b: 2 });
-console.log(objs.items);
+function createAndValidateCar(model, year) {
+    const car = {};
+    if (model.length > 3) {
+        car.model = model;
+    }
+    if (year > 2000) {
+        car.year = year;
+    }
+    return car;
+}
+const cars = ['Ford', 'Audi'];
+cars[1];
+const ford = {
+    model: 'Ford',
+    year: 2020
+};
 //# sourceMappingURL=generic.js.map
